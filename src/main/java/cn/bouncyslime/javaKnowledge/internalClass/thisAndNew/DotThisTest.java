@@ -1,6 +1,6 @@
 package cn.bouncyslime.javaKnowledge.internalClass.thisAndNew;
 
-import internalClass.thisAndNew.DotThis.Inner;
+import cn.bouncyslime.javaKnowledge.internalClass.thisAndNew.DotThis.Inner;
 
 public class DotThisTest {
 	public static void main(String[] args) {

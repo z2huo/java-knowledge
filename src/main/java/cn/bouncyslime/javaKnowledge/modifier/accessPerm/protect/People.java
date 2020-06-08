@@ -1,6 +1,6 @@
 package cn.bouncyslime.javaKnowledge.modifier.accessPerm.protect;
 
-import modifier.accessPerm.protect.pack1.Animal;
+import cn.bouncyslime.javaKnowledge.modifier.accessPerm.protect.pack1.Animal;
 
 public class People extends Animal{
 	public People() {

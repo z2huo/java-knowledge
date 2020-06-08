@@ -1,6 +1,6 @@
 package cn.bouncyslime.javaKnowledge.internalClass.staticInternalClass.package2;
 
-import internalClass.staticInternalClass.package1.StaticInternalClass;
+import cn.bouncyslime.javaKnowledge.internalClass.staticInternalClass.package1.StaticInternalClass;
 
 /**
  * 作者： 张一卓

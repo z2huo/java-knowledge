@@ -1,6 +1,6 @@
 package cn.bouncyslime.javaKnowledge.internalClass.anonymousInternalClass;
 
-import internalClass.internalAndTransUp.Destination;
+import cn.bouncyslime.javaKnowledge.internalClass.internalAndTransUp.Destination;
 
 public class Demo {
 	public Destination destination(String dest) {

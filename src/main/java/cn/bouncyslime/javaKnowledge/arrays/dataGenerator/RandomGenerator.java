@@ -1,12 +1,12 @@
 package cn.bouncyslime.javaKnowledge.arrays.dataGenerator;
 
-import java.util.Random;
+import cn.bouncyslime.javaKnowledge.generic.generator.Generator;
 
-import generic.generator.Generator;
+import java.util.Random;
 
 public class RandomGenerator {
 	private static Random r = new Random();
-	public static class Character implements Generator<java.lang.Character>{
+	public static class Character implements Generator<java.lang.Character> {
 		public java.lang.Character next(){
 			return CountingGenreator.chars[r.nextInt(CountingGenreator.chars.length)];
 		}

@@ -1,6 +1,6 @@
 package cn.bouncyslime.javaKnowledge.interfaces.nesting;
 
-import interfaces.nesting.A.Dimp2;
+import cn.bouncyslime.javaKnowledge.interfaces.nesting.A.Dimp2;
 
 class A{
 	interface B{

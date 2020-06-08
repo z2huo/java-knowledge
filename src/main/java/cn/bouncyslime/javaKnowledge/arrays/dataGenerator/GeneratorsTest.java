@@ -2,7 +2,7 @@ package cn.bouncyslime.javaKnowledge.arrays.dataGenerator;
 
 import java.util.Arrays;
 
-import generic.generator.Generator;
+import cn.bouncyslime.javaKnowledge.generic.generator.Generator;
 
 public class GeneratorsTest {
 	public static int size = 5;

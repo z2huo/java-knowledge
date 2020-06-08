@@ -1,9 +1,9 @@
 package cn.bouncyslime.javaKnowledge.arrays.dataGenerator;
 
-import generic.generator.Generator;
+import cn.bouncyslime.javaKnowledge.generic.generator.Generator;
 
 public class CountingGenreator {
-	public static class Boolean implements Generator<java.lang.Boolean>{
+	public static class Boolean implements Generator<java.lang.Boolean> {
 		private boolean value = false;
 		public java.lang.Boolean next() {
 			value = !value;
