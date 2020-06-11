@@ -3,8 +3,10 @@ package cn.bouncyslime.javaKnowledge.stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Test2 {
 
@@ -19,7 +21,11 @@ public class Test2 {
         // 过滤出 语文成绩小于 80分的同学
         logger.debug(String.valueOf(list.stream().filter(x -> x.getChineseScore() < 80).count()));
         logger.debug(list.stream().filter(x -> x.getChineseScore() < 80).findAny().get().toString());
-        logger.debug(list.stream().filter(x -> x.getChineseScore() > 80).collect().toString());
+//        logger.debug(list.stream().filter(x -> x.getChineseScore() > 80).collect().toString());
+
+        List<String> list2 = new ArrayList<>();
+        list2 = list.stream().map(Student::getName).collect(Collectors.toList());
+        logger.debug(list2.toString());
 
     }
 }
