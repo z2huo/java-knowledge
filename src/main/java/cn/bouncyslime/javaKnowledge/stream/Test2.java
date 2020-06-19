@@ -40,5 +40,10 @@ public class Test2 {
             }
         }).forEach(x -> {logger.debug(x.toString());});
 
+        logger.info((">>>>> 以下为map的一些用法"));
+        logger.debug(list.stream().map(x -> x.getAge() + 10).findFirst().get().toString());
+        list.stream().map(x -> x.getAge() + 10).forEach(x -> {logger.debug(x.toString());});
+        logger.debug(String.valueOf(list.stream().mapToDouble(Student::getAge).findAny().getAsDouble()));
+
     }
 }
