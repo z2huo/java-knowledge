@@ -27,5 +27,7 @@ public class Test2 {
         list2 = list.stream().map(Student::getName).collect(Collectors.toList());
         logger.debug(list2.toString());
 
+//        list.stream().sorted()
+
     }
 }
