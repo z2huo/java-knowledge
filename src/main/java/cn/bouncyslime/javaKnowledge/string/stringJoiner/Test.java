@@ -2,7 +2,9 @@ package cn.bouncyslime.javaKnowledge.string.stringJoiner;
 
 import lombok.extern.slf4j.Slf4j;
 
+import java.util.Arrays;
 import java.util.StringJoiner;
+import java.util.stream.Collectors;
 
 /**
  * @Author 张一卓
@@ -19,5 +21,12 @@ public class Test {
             stringJoiner.add(string);
         }
         log.debug(stringJoiner.toString());
+
+        log.info(">>> 以下为 stringJoiner 在 stream 下的应用场景");
+        int[] intArray = {1, 2, 3, 4};
+        String resultString = Arrays.stream(intArray).mapToObj(x -> String.valueOf(x)).collect(Collectors.joining(", "));
+        log.debug(resultString);
+        String resultString2 = Arrays.stream(intArray).mapToObj(x -> String.valueOf(x)).collect(Collectors.joining(", ", arrayStart, arrayEnd));
+        log.debug(resultString2);
     }
 }
