@@ -25,7 +25,7 @@ public class MapTest {
         });
 
         log.info(">>> map 通过 entry");
-        for (Map.Entry entry : map.entrySet()){
+        for (Map.Entry<String, String> entry : map.entrySet()){
             log.debug("key: " + entry.getKey() + ", value: " + entry.getValue());
         }
 
@@ -37,7 +37,7 @@ public class MapTest {
         log.info(">>> map 通过 entryset iterator 迭代器");
         Iterator<Map.Entry<String, String>> iterator = map.entrySet().iterator();
         while (iterator.hasNext()){
-            Map.Entry entry = iterator.next();
+            Map.Entry<String, String> entry = iterator.next();
             log.debug("key: " + entry.getKey() + ", value: " + entry.getValue());
         }
 
