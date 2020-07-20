@@ -32,7 +32,6 @@ public class ForeachAndPeekTest {
                 .collect(Collectors.toList());
         log.debug(strList.toString());
 
-
         log.info(">>> peek");
         studentStream = studentList.stream();
         List<String> strList2 = studentStream.filter(x -> x.getAge() < 13)
@@ -55,6 +54,5 @@ public class ForeachAndPeekTest {
         List<List<Student>> resultList = inputStream.peek(x -> x.get(0).setAge(50)).collect(Collectors.toList());
 //        List<List<Student>> resultList2 = inputStream.peek(x -> x.get(0).setAge(50)).collect(Collectors.toList());
         log.debug(resultList.toString());
-
     }
 }
