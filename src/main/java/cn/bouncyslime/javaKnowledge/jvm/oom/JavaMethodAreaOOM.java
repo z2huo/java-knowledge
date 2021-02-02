@@ -1,4 +1,4 @@
-package cn.bouncyslime.javaKnowledge.jvm;
+package cn.bouncyslime.javaKnowledge.jvm.oom;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;

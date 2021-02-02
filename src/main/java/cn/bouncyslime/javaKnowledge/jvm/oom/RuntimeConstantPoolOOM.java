@@ -1,4 +1,4 @@
-package cn.bouncyslime.javaKnowledge.jvm;
+package cn.bouncyslime.javaKnowledge.jvm.oom;
 
 import java.util.ArrayList;
 import java.util.List;

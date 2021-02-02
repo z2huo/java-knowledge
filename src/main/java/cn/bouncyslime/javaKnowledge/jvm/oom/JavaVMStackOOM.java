@@ -1,4 +1,4 @@
-package cn.bouncyslime.javaKnowledge.jvm;
+package cn.bouncyslime.javaKnowledge.jvm.oom;
 
 /**
  * 创建线程导致内存溢出异常

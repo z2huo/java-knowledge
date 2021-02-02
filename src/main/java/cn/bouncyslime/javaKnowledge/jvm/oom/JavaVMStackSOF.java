@@ -1,4 +1,4 @@
-package cn.bouncyslime.javaKnowledge.jvm;
+package cn.bouncyslime.javaKnowledge.jvm.oom;
 
 /**
  * 虚拟机栈和本地方法栈OOM测试
