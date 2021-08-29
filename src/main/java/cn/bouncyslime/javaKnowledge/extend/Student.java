@@ -1,6 +1,6 @@
 package cn.bouncyslime.javaKnowledge.extend;
 
-public class Student extends Person {
+class Student extends Person {
 	public String name;
 	public int age;
 	

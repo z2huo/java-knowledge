@@ -1,6 +1,6 @@
 package cn.bouncyslime.javaKnowledge.extend;
 
-public class Person {
+class Person {
 	public String name;
 	public int age;
 	
