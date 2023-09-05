@@ -10,9 +10,10 @@
         <version>1.0.0.0</version>
     </parent>
 
-    <groupId>cn.bouncyslime.javaKnowledge</groupId>
-    <artifactId>javaKnowledge</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <name>java-knowledge</name>
+
+    <artifactId>java-knowledge</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
