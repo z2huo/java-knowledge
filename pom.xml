@@ -4,12 +4,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>cn.z2huo</groupId>
-        <artifactId>z2huo-java-parent</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-    </parent>
-
     <name>java-knowledge</name>
 
     <groupId>cn.z2huo</groupId>
@@ -20,6 +14,20 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>cn.z2huo</groupId>
+                <artifactId>z2huo-java-parent</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
 
