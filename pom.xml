@@ -7,13 +7,14 @@
     <parent>
         <groupId>cn.z2huo</groupId>
         <artifactId>z2huo-java-parent</artifactId>
-        <version>1.0.0.0</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <name>java-knowledge</name>
 
+    <groupId>cn.z2huo</groupId>
     <artifactId>java-knowledge</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
