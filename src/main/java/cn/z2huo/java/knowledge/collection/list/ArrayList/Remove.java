@@ -1,51 +1,58 @@
 package cn.z2huo.java.knowledge.collection.list.ArrayList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
 public class Remove {
+
 	public static void main(String[] args) {
-		List<String> list = new ArrayList<>();
-		list.add("aa");
-		list.add("bb");
-//		list.add("bb");
-//		list.add("aa");
-//		list.add("bb");
-//		list.add("c");
-//		list.add("s");
-//		list.add("bb");
-//		list.add("c");
+		List<String> list = new ArrayList<>(
+				Arrays.asList("aa", "bb", "bb", "aa", "bb", "c", "s", "bb", "c")
+		);
 		System.out.println(remove(list));
 	}
 
-	public static <T> List<T> remove(List<T> list) {
-		// ���ѭ��ArrayListɾ���ظ�Ԫ�صķ����ǲ����еģ���Ϊ��ɾ��������Ҫɾ��Ԫ��֮���Ԫ�ػ���ǰ���ƣ�ѭ����һ��Ԫ��ʱ��ɾ��Ԫ�ص���һ��Ԫ���Ǳ��������ġ�
-//		for(int i=0; i<list.size(); i++) {
+	public static List<String> remove(List<String> list) {
+
+		// 正序遍历删除
+//		for(int i = 0; i < list.size(); i++) {
 //			if (list.get(i).equals("bb")) {
 //				list.remove(i);
 //			}
 //		}
-		
-		// �����Ҫ����������⣬����ʹ�õ�������ķ���
+
+		// 倒序遍历删除
 //		for(int i=list.size()-1; i>=0; i--) {
 //			if (list.get(i).equals("bb")) {
 //				list.remove(i);
 //			}
 //		}
-		
+
+		// 迭代器遍历删除
 //		Iterator<T> iterator = list.iterator();
 //		while (iterator.hasNext()) {
 //			if (iterator.next().equals("bb")) {
 //				iterator.remove();
 //			}
 //		}
-		
-		for (T t : list) {
-			if("aa".equals(t)) {
-				list.remove(t);
+
+		// 迭代器报错
+		Iterator<String> iterator = list.iterator();
+		while(iterator.hasNext()) {
+			if(iterator.next().equals("bb")) {
+				iterator.remove();
+				list.add("exception");
 			}
 		}
+
+		// 迭代器 报错
+//		for (String t : list) {
+//			if("aa".equals(t)) {
+//				list.remove(t);
+//			}
+//		}
 		
 		return list;
 	}
