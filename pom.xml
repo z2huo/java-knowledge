@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <name>java-knowledge</name>
+    <name>java-knowledge-study</name>
 
     <groupId>cn.z2huo</groupId>
-    <artifactId>java-knowledge</artifactId>
+    <artifactId>java-knowledge-study</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
@@ -38,11 +38,6 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
         </dependency>
 
 <!--        <dependency>-->
