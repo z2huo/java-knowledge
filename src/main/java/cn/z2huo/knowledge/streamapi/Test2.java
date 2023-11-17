@@ -1,4 +1,4 @@
-package cn.z2huo.knowledge.stream;
+package cn.z2huo.knowledge.streamapi;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

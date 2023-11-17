@@ -1,4 +1,4 @@
-package cn.z2huo.knowledge.stream;
+package cn.z2huo.knowledge.streamapi;
 
 import lombok.extern.slf4j.Slf4j;
 

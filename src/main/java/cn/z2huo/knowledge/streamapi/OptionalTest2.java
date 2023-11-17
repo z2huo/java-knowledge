@@ -1,4 +1,4 @@
-package cn.z2huo.knowledge.stream;
+package cn.z2huo.knowledge.streamapi;
 
 import cn.z2huo.knowledge.common.entity.Class;
 import cn.z2huo.knowledge.common.entity.Student;
