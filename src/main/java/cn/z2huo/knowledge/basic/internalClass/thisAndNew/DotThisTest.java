@@ -2,7 +2,7 @@ package cn.z2huo.knowledge.basic.internalClass.thisAndNew;
 
 import cn.z2huo.knowledge.basic.internalClass.thisAndNew.DotThis.Inner;
 
-public class DotThisTest {
+class DotThisTest {
 	public static void main(String[] args) {
 		DotThis dotThis = new DotThis();
 		DotThis.Inner inner = dotThis.inner();

@@ -2,6 +2,7 @@ package cn.z2huo.knowledge.basic.internalClass.InternalClassAndExtend;
 
 class WithInner{
 	class Inner{}
+
 }
 
 public class InheritInner extends WithInner.Inner{
