@@ -1,4 +1,4 @@
-package cn.z2huo.knowledge.concurrent.section_21_2.runnable;
+package cn.z2huo.knowledge.concurrency.section_21_2.runnable;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
