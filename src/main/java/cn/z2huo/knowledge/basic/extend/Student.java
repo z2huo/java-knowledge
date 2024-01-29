@@ -1,6 +1,6 @@
 package cn.z2huo.knowledge.basic.extend;
 
-class Student extends Person {
+public class Student extends Person {
 
 	public String name;
 	public int age;

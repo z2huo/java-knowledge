@@ -7,7 +7,11 @@ public interface Demo {
 	Random random = new Random(47);
 	int age = random.nextInt(10);
 	void say();
-	
+
+	public static final String string = "aaa";
+
+	public void method();
+
 	public static void main(String[] args) {
 		System.out.println(Demo.name);
 		System.out.println(Demo.age);

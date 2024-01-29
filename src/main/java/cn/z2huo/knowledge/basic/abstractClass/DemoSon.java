@@ -11,6 +11,11 @@ class DemoSon extends Demo{
 		System.out.println("可以奔跑");
 	}
 
+	@Override
+	void method() {
+		String string = this.string;
+	}
+
 //	void say() {
 //		System.out.println("说话");
 //	}

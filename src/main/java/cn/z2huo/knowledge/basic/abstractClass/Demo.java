@@ -2,17 +2,25 @@ package cn.z2huo.knowledge.basic.abstractClass;
 
 abstract class Demo {
 
-	protected final String STRING = "2023";
+	protected final String string = "2023";
+
+	protected String string2;
+
+	public Demo() {
+
+	}
 
 	protected String getString() {
-		return STRING;
+		return string;
 	}
 
 	String name;
 
-	void say() {
+	final void say() {
 		System.out.println("可以说话");
 	}
 
 	abstract void run();
+
+	abstract void method();
 }
